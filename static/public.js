@@ -145,7 +145,7 @@ function setCategory(category) {
   state.activeCategory = category;
   state.selectedId = "";
   applyFilters();
-  document.querySelector("#bugs")?.scrollIntoView({behavior: "smooth", block: "start"});
+  document.querySelector("#bugs")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function countWhere(predicate) {
@@ -175,14 +175,14 @@ function renderSummary() {
 function renderChart() {
   requireElement(els.chart, "public-chart");
   const typeBars = [
-    {key: "type_logic_error", label: "逻辑", value: countWhere((item) => item.bug?.type === "logic_error")},
-    {key: "type_ui_error", label: "界面", value: countWhere((item) => item.bug?.type === "ui_error")},
-    {key: "type_crash", label: "崩溃", value: countWhere((item) => item.bug?.type === "crash")},
+    { key: "type_logic_error", label: "逻辑", value: countWhere((item) => item.bug?.type === "logic_error") },
+    { key: "type_ui_error", label: "界面", value: countWhere((item) => item.bug?.type === "ui_error") },
+    { key: "type_crash", label: "崩溃", value: countWhere((item) => item.bug?.type === "crash") },
   ].filter((item) => item.value > 0);
   const severityBars = [
-    {key: "severity_high", label: "高", value: countWhere((item) => item.bug?.severity === "high")},
-    {key: "severity_medium", label: "中", value: countWhere((item) => item.bug?.severity === "medium")},
-    {key: "severity_low", label: "低", value: countWhere((item) => item.bug?.severity === "low")},
+    { key: "severity_high", label: "高", value: countWhere((item) => item.bug?.severity === "high") },
+    { key: "severity_medium", label: "中", value: countWhere((item) => item.bug?.severity === "medium") },
+    { key: "severity_low", label: "低", value: countWhere((item) => item.bug?.severity === "low") },
   ].filter((item) => item.value > 0);
   const topApps = [...state.bugs.reduce((map, item) => {
     const key = item.app?.app_name || item.app?.package_name || "未知应用";
@@ -191,7 +191,7 @@ function renderChart() {
   }, new Map()).entries()]
     .sort((left, right) => right[1] - left[1])
     .slice(0, 5)
-    .map(([label, value]) => ({label, value}));
+    .map(([label, value]) => ({ label, value }));
   const resolved = countWhere((item) => item.public?.resolved);
   const confirmed = countWhere((item) => item.public?.author_confirmed);
   const submitted = countWhere((item) => item.public?.issue_submitted);
@@ -269,12 +269,12 @@ function renderChart() {
 
 function categoryItems() {
   return [
-    {key: "public_issues", title: "已提交", value: countWhere((item) => item.public?.issue_submitted), note: "缺陷单状态"},
-    {key: "type_crash", title: "崩溃", value: countWhere((item) => item.bug?.type === "crash"), note: "运行异常"},
-    {key: "type_logic_error", title: "逻辑", value: countWhere((item) => item.bug?.type === "logic_error"), note: "行为错误"},
-    {key: "type_ui_error", title: "界面", value: countWhere((item) => item.bug?.type === "ui_error"), note: "显示问题"},
-    {key: "status_confirmed", title: "已确认", value: countWhere((item) => item.public?.author_confirmed), note: "作者反馈"},
-    {key: "status_open", title: "未解决", value: countWhere((item) => !item.public?.resolved), note: "修复状态"},
+    { key: "public_issues", title: "已提交", value: countWhere((item) => item.public?.issue_submitted), note: "缺陷单状态" },
+    { key: "type_crash", title: "崩溃", value: countWhere((item) => item.bug?.type === "crash"), note: "运行异常" },
+    { key: "type_logic_error", title: "逻辑", value: countWhere((item) => item.bug?.type === "logic_error"), note: "行为错误" },
+    { key: "type_ui_error", title: "界面", value: countWhere((item) => item.bug?.type === "ui_error"), note: "显示问题" },
+    { key: "status_confirmed", title: "已确认", value: countWhere((item) => item.public?.author_confirmed), note: "作者反馈" },
+    { key: "status_open", title: "未解决", value: countWhere((item) => !item.public?.resolved), note: "修复状态" },
   ];
 }
 
@@ -372,9 +372,9 @@ function renderTrace(trace) {
   return `
     <div class="public-trace">
       ${trace.map((step) => {
-        const page = step.page || {};
-        const op = step.operation || {};
-        return `
+    const page = step.page || {};
+    const op = step.operation || {};
+    return `
           <article class="public-trace-card">
             ${page.screenshot_url ? `<img src="${escapeHtml(page.screenshot_url)}" alt="step ${escapeHtml(step.step_index)}">` : ""}
             <div class="public-trace-body">
@@ -386,7 +386,7 @@ function renderTrace(trace) {
             </div>
           </article>
         `;
-      }).join("")}
+  }).join("")}
     </div>
   `;
 }
@@ -493,7 +493,7 @@ sideNavLinks.forEach((link) => {
     if (!target) return;
     event.preventDefault();
     setActiveSection(targetId);
-    target.scrollIntoView({behavior: "smooth", block: "start"});
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     history.replaceState(null, "", `#${targetId}`);
   });
 });
