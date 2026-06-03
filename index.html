@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fim 公开缺陷</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body class="public-page">
+  <div class="app-shell public-shell">
+    <header class="topbar public-topbar">
+      <div class="brand">
+        <h1>Fim</h1>
+        <span id="public-count">缺陷展示</span>
+      </div>
+    </header>
+
+    <main class="public-layout">
+      <aside class="public-sidebar" aria-label="Fim showcase navigation">
+        <div class="public-side-brand">
+          <strong>Fim</strong>
+          <span>移动应用缺陷发现</span>
+        </div>
+        <nav class="public-side-nav">
+          <a class="active" href="#overview">概览</a>
+          <a href="#insights">洞察</a>
+          <a href="#bugs">缺陷详情</a>
+        </nav>
+        <p>Fim 自动探索移动应用界面，沉淀可复现、可审核、可公开展示的真实缺陷样本。</p>
+      </aside>
+
+      <div class="public-content">
+        <section id="overview" class="public-hero public-panel">
+          <div>
+            <span class="public-eyebrow">Fim 展示</span>
+            <h2>自动探索移动应用缺陷，保留可复现证据。</h2>
+            <p>从自动探索到人工审核，Fim 将移动应用缺陷整理成可追踪、可复现、可交流的证据链。</p>
+          </div>
+          <div id="public-summary" class="public-summary"></div>
+        </section>
+
+        <section id="insights" class="public-insights">
+          <article class="public-panel public-chart-panel">
+            <div class="public-section-head">
+              <span>数据分布</span>
+              <h2>审核缺陷类型分布</h2>
+            </div>
+            <div id="public-chart" class="public-chart"></div>
+          </article>
+
+          <article class="public-panel">
+            <div class="public-section-head">
+              <span>分类浏览</span>
+              <h2>按类型、优先级和状态浏览</h2>
+            </div>
+            <div id="public-categories" class="public-categories"></div>
+          </article>
+        </section>
+
+        <section id="bugs" class="public-panel public-bug-panel">
+          <div class="public-section-head">
+            <span>缺陷详情</span>
+            <h2>缺陷详情</h2>
+          </div>
+          <div class="public-side-filters public-bug-filters" aria-label="缺陷筛选">
+            <label>
+              <span>缺陷类型</span>
+              <select id="type-filter">
+                <option value="all">全部类型</option>
+              </select>
+            </label>
+            <label>
+              <span>作者确认</span>
+              <select id="confirmed-filter">
+                <option value="all">全部</option>
+                <option value="yes">已确认</option>
+                <option value="no">未确认</option>
+              </select>
+            </label>
+            <label>
+              <span>修复状态</span>
+              <select id="resolved-filter">
+                <option value="all">全部</option>
+                <option value="yes">已解决</option>
+                <option value="no">未解决</option>
+              </select>
+            </label>
+          </div>
+          <section id="public-list" class="public-grid"></section>
+          <section id="public-detail" class="public-detail-shell" aria-live="polite"></section>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="data/public_bugs.js"></script>
+  <script src="static/public.js"></script>
+</body>
+
+</html>
