@@ -215,9 +215,9 @@ const translations = {
 
 function initialLanguage() {
   try {
-    return localStorage.getItem("fim-language") === "en" ? "en" : "zh";
+    return localStorage.getItem("fim-language-v2") === "zh" ? "zh" : "en";
   } catch {
-    return "zh";
+    return "en";
   }
 }
 
@@ -228,6 +228,7 @@ const state = {
   activeCategory: "all",
   isstaOnly: false,
   language: initialLanguage(),
+  englishContent: {},
 };
 
 const els = {
@@ -325,25 +326,46 @@ function isIsstaPaperBug(item) {
     || item.id?.startsWith("usefulness_");
 }
 
+function localizedBugText(item, field) {
+  const original = field === "public_note" ? item.public?.public_note : item.bug?.[field];
+  if (state.language !== "en") return original || "";
+  return state.englishContent[item.id]?.[field] ?? original ?? "";
+}
+
+function localizedThought(item, index) {
+  const original = item.trace?.[index]?.thought || "";
+  if (state.language !== "en") return original;
+  return state.englishContent[item.id]?.thoughts?.[index] ?? original;
+}
+
 function firstScreenshot(item) {
   const step = (item.trace || []).find((entry) => entry?.page?.screenshot_url);
   return step?.page?.screenshot_url || "";
 }
 
 function previewText(item) {
-  return item.public?.public_note || item.bug?.actual || item.bug?.expected || item.app?.summary || t("previewFallback");
+  return localizedBugText(item, "public_note")
+    || localizedBugText(item, "actual")
+    || localizedBugText(item, "expected")
+    || item.app?.summary
+    || t("previewFallback");
+}
+
+async function loadEnglishContent() {
+  const response = await fetch("data/public_bugs_en.json");
+  if (!response.ok) throw new Error(`Failed to load English bug content (${response.status})`);
+  state.englishContent = await response.json();
 }
 
 async function loadPublicBugs() {
   if (window.FIM_PUBLIC_BUGS) {
     state.bugs = window.FIM_PUBLIC_BUGS.bugs || [];
-    populateTypeFilter();
-    applyFilters();
-    return;
+  } else {
+    const res = await fetch("data/public_bugs.json");
+    const data = await res.json();
+    state.bugs = data.bugs || [];
   }
-  const res = await fetch("data/public_bugs.json");
-  const data = await res.json();
-  state.bugs = data.bugs || [];
+  await loadEnglishContent();
   populateTypeFilter();
   applyFilters();
 }
@@ -560,7 +582,7 @@ function renderList() {
             <span>${escapeHtml(item.app?.app_name || item.app?.package_name || t("unknownApp"))}</span>
             <span>${escapeHtml(typeLabel(item.bug?.type))}</span>
           </div>
-          <h3>${escapeHtml(item.bug?.description || item.id)}</h3>
+          <h3>${escapeHtml(localizedBugText(item, "description") || item.id)}</h3>
           <p>${escapeHtml(previewText(item))}</p>
           <div class="public-card-footer">
             <span class="public-chip ${escapeHtml(item.bug?.severity || "")}">${escapeHtml(severityLabel(item.bug?.severity))}</span>
@@ -612,11 +634,12 @@ function collapsibleKv(label, rawValue, limit = 180) {
   `;
 }
 
-function renderTrace(trace) {
+function renderTrace(item) {
+  const trace = item.trace;
   if (!trace?.length) return `<div class="public-empty-state">${escapeHtml(t("noTrace"))}</div>`;
   return `
     <div class="public-trace">
-      ${trace.map((step) => {
+      ${trace.map((step, index) => {
     const page = step.page || {};
     const op = step.operation || {};
     return `
@@ -627,7 +650,7 @@ function renderTrace(trace) {
                 <strong>${escapeHtml(t("step", { index: step.step_index }))}</strong>
                 <span>${escapeHtml(op.action_name || t("unknownAction"))}</span>
               </div>
-              <p>${escapeHtml(step.thought || "")}</p>
+              <p>${escapeHtml(localizedThought(item, index))}</p>
             </div>
           </article>
         `;
@@ -656,7 +679,7 @@ function renderDetail() {
       <div class="public-detail-scroll">
         <div class="public-detail-head">
           <span>${escapeHtml(item.app?.app_name || item.app?.package_name || t("unknownApp"))}</span>
-          <h2>${escapeHtml(item.bug?.description || item.id)}</h2>
+          <h2>${escapeHtml(localizedBugText(item, "description") || item.id)}</h2>
           <div class="public-card-footer">
             <span class="public-chip ${escapeHtml(item.bug?.severity || "")}">${escapeHtml(severityLabel(item.bug?.severity))}</span>
             <span class="public-chip">${escapeHtml(typeLabel(item.bug?.type))}</span>
@@ -670,8 +693,8 @@ function renderDetail() {
           <dl class="public-kv">
           ${kv(t("packageName"), escapeHtml(item.app?.package_name || ""))}
           ${kv(t("version"), escapeHtml([item.app?.version_name, item.app?.version_code].filter(Boolean).join(" / ")))}
-          ${kv(t("expected"), escapeHtml(item.bug?.expected || ""))}
-          ${collapsibleKv(t("actual"), item.bug?.actual || "")}
+          ${kv(t("expected"), escapeHtml(localizedBugText(item, "expected")))}
+          ${collapsibleKv(t("actual"), localizedBugText(item, "actual"))}
           ${kv(t("sourceCode"), linkOrText(item.app?.source_code_url))}
           ${kv("Issue", linkOrText(publicInfo.github_url || item.app?.issue_tracker_url))}
           </dl>
@@ -679,7 +702,7 @@ function renderDetail() {
 
         <section class="public-detail-section">
           <h3>${escapeHtml(t("reproductionTrace"))}</h3>
-          ${renderTrace(item.trace)}
+          ${renderTrace(item)}
         </section>
       </div>
     </article>
@@ -730,7 +753,7 @@ function applyStaticTranslations() {
 function setLanguage(language) {
   state.language = language === "en" ? "en" : "zh";
   try {
-    localStorage.setItem("fim-language", state.language);
+    localStorage.setItem("fim-language-v2", state.language);
   } catch {
     // The language still changes when storage is unavailable.
   }

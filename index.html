@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fim 公开缺陷</title>
+  <title>Fim Public Bugs</title>
   <link rel="stylesheet" href="static/styles.css">
 </head>
 
@@ -13,39 +13,39 @@
     <header class="topbar public-topbar">
       <div class="brand">
         <h1>Fim</h1>
-        <span id="public-count">缺陷展示</span>
-        <div id="language-switch" class="language-switch" role="group" aria-label="语言切换">
-          <button type="button" data-language="zh" aria-pressed="true">中文</button>
-          <button type="button" data-language="en" aria-pressed="false">EN</button>
+        <span id="public-count">Bug showcase</span>
+        <div id="language-switch" class="language-switch" role="group" aria-label="Language">
+          <button type="button" data-language="zh" aria-pressed="false">中文</button>
+          <button type="button" data-language="en" aria-pressed="true">EN</button>
         </div>
       </div>
     </header>
 
     <main class="public-layout">
-      <aside class="public-sidebar" aria-label="Fim 展示导航">
+      <aside class="public-sidebar" aria-label="Fim showcase navigation">
         <div class="public-side-brand">
           <strong>Fim</strong>
-          <span data-i18n="brandTagline">移动应用缺陷发现</span>
+          <span data-i18n="brandTagline">Mobile app bug discovery</span>
         </div>
         <nav class="public-side-nav">
-          <a class="active" href="#overview" data-i18n="navOverview">概览</a>
-          <a href="#insights" data-i18n="navInsights">洞察</a>
-          <a href="#bugs" data-i18n="navBugs">缺陷详情</a>
+          <a class="active" href="#overview" data-i18n="navOverview">Overview</a>
+          <a href="#insights" data-i18n="navInsights">Insights</a>
+          <a href="#bugs" data-i18n="navBugs">Bug details</a>
         </nav>
-        <p data-i18n="sidebarIntro">Fim 自动探索移动应用界面，沉淀可复现、可审核、可公开展示的真实缺陷样本。</p>
+        <p data-i18n="sidebarIntro">Fim automatically explores mobile app interfaces and preserves reproducible, reviewed, publicly accessible real-world bug samples.</p>
         <a class="public-paper-link" href="https://arxiv.org/abs/2602.12834" target="_blank" rel="noopener noreferrer">
-          <span data-i18n="paperEyebrow">相关论文</span>
+          <span data-i18n="paperEyebrow">Related paper</span>
           <strong>FuncDroid</strong>
-          <em data-i18n="paperLinkLabel">在 arXiv 上查看论文 ↗</em>
+          <em data-i18n="paperLinkLabel">Read on arXiv ↗</em>
         </a>
       </aside>
 
       <div class="public-content">
         <section id="overview" class="public-hero public-panel">
           <div>
-            <span class="public-eyebrow" data-i18n="heroEyebrow">Fim 展示</span>
-            <h2 data-i18n="heroTitle">自动探索移动应用缺陷，保留可复现证据。</h2>
-            <p data-i18n="heroIntro">从自动探索到人工审核，Fim 将移动应用缺陷整理成可追踪、可复现、可交流的证据链。</p>
+            <span class="public-eyebrow" data-i18n="heroEyebrow">Fim Showcase</span>
+            <h2 data-i18n="heroTitle">Explore mobile app bugs automatically and preserve reproducible evidence.</h2>
+            <p data-i18n="heroIntro">From automated exploration to manual review, Fim organizes mobile app bugs into traceable, reproducible evidence packages.</p>
           </div>
           <div id="public-summary" class="public-summary"></div>
         </section>
@@ -53,16 +53,16 @@
         <section id="insights" class="public-insights">
           <article class="public-panel public-chart-panel">
             <div class="public-section-head">
-              <span data-i18n="distributionEyebrow">数据分布</span>
-              <h2 data-i18n="distributionTitle">审核缺陷类型分布</h2>
+              <span data-i18n="distributionEyebrow">Data distribution</span>
+              <h2 data-i18n="distributionTitle">Reviewed bugs by type</h2>
             </div>
             <div id="public-chart" class="public-chart"></div>
           </article>
 
           <article class="public-panel">
             <div class="public-section-head">
-              <span data-i18n="categoriesEyebrow">分类浏览</span>
-              <h2 data-i18n="categoriesTitle">按类型、优先级和状态浏览</h2>
+              <span data-i18n="categoriesEyebrow">Browse categories</span>
+              <h2 data-i18n="categoriesTitle">Browse by type, priority, and status</h2>
             </div>
             <div id="public-categories" class="public-categories"></div>
           </article>
@@ -70,35 +70,35 @@
 
         <section id="bugs" class="public-panel public-bug-panel">
           <div class="public-section-head">
-            <span data-i18n="detailsEyebrow">缺陷详情</span>
-            <h2 data-i18n="detailsTitle">缺陷详情</h2>
+            <span data-i18n="detailsEyebrow">Bug details</span>
+            <h2 data-i18n="detailsTitle">Bug details</h2>
           </div>
-          <div class="public-side-filters public-bug-filters" aria-label="缺陷筛选">
+          <div class="public-side-filters public-bug-filters" aria-label="Bug filters">
             <label>
-              <span data-i18n="filterType">缺陷类型</span>
+              <span data-i18n="filterType">Bug type</span>
               <select id="type-filter">
-                <option value="all" data-i18n="allTypes">全部类型</option>
+                <option value="all" data-i18n="allTypes">All types</option>
               </select>
             </label>
             <label>
-              <span data-i18n="filterConfirmed">作者确认</span>
+              <span data-i18n="filterConfirmed">Author confirmation</span>
               <select id="confirmed-filter">
-                <option value="all" data-i18n="all">全部</option>
-                <option value="yes" data-i18n="confirmedYes">已确认</option>
-                <option value="no" data-i18n="confirmedNo">未确认</option>
+                <option value="all" data-i18n="all">All</option>
+                <option value="yes" data-i18n="confirmedYes">Confirmed</option>
+                <option value="no" data-i18n="confirmedNo">Not confirmed</option>
               </select>
             </label>
             <label>
-              <span data-i18n="filterResolved">修复状态</span>
+              <span data-i18n="filterResolved">Resolution status</span>
               <select id="resolved-filter">
-                <option value="all" data-i18n="all">全部</option>
-                <option value="yes" data-i18n="resolvedYes">已解决</option>
-                <option value="no" data-i18n="resolvedNo">未解决</option>
+                <option value="all" data-i18n="all">All</option>
+                <option value="yes" data-i18n="resolvedYes">Resolved</option>
+                <option value="no" data-i18n="resolvedNo">Unresolved</option>
               </select>
             </label>
             <div class="public-paper-filter">
-              <span data-i18n="paperDataset">论文数据集</span>
-              <button id="issta-filter" type="button" aria-pressed="false">仅看 ISSTA 论文缺陷</button>
+              <span data-i18n="paperDataset">Paper dataset</span>
+              <button id="issta-filter" type="button" aria-pressed="false">ISSTA paper bugs only</button>
             </div>
           </div>
           <section id="public-list" class="public-grid"></section>
