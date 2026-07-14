@@ -428,6 +428,7 @@ function renderDetail() {
           ${kv("预期", escapeHtml(item.bug?.expected || ""))}
           ${collapsibleKv("实际", item.bug?.actual || "")}
           ${kv("源码", linkOrText(item.app?.source_code_url))}
+          ${kv("Issue", linkOrText(publicInfo.github_url || item.app?.issue_tracker_url))}
           </dl>
         </section>
 

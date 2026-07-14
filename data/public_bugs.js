@@ -99,10 +99,10 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": "acidburn.stims 在 Android 9 上启动前台服务 StimsService 时，调用 startForeground() 传入了一个使用无效通知渠道 StimsServiceChannel 的通知，而 Android 8.0 及以上版本要求前台服务通知必须使用已经创建好的 NotificationChannel，因此系统抛出 RemoteServiceException: Bad notification for startForeground，并终止了该 App 进程。"
       },
       "public": {
-        "github_url": "https://github.com/acidburnmonkey/stims/issues",
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": "",
+        "github_url": "https://github.com/acidburnmonkey/stims/issues/4",
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者回复该崩溃已在提交 1b5c060 中修复。",
         "issue_submitted": true
       }
     },
@@ -1054,11 +1054,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/aisleron/aisleron/issues",
+        "github_url": "https://github.com/aisleron/aisleron/issues/157",
         "issue_submitted": true,
         "author_confirmed": false,
         "resolved": false,
-        "public_note": ""
+        "public_note": "作者反馈这是按设计工作：Home Stock 只显示有库存商品，新增为缺货的商品不会出现在 Home Stock 中，但可通过搜索或 Needed 页面找到。"
       }
     },
     {
@@ -2129,8 +2129,8 @@ window.FIM_PUBLIC_BUGS = {
       "public": {
         "github_url": "https://github.com/BoldBitcoinWallet/BoldWallet/issues/71",
         "author_confirmed": true,
-        "resolved": false,
-        "public_note": "维护者已回复并感谢详细报告和堆栈信息，要求补充版本、安装来源和复现步骤；按“收到回复即确认”计为已确认，暂未修复。",
+        "resolved": true,
+        "public_note": "GitHub 通知显示 Issue #71 已 Closed as completed；计为已确认且已解决。",
         "issue_submitted": true
       }
     },
@@ -2855,11 +2855,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/xiaoshihou514/jiyi/issues",
+        "github_url": "https://github.com/xiaoshihou514/jiyi/issues/13",
         "issue_submitted": true,
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": ""
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者先回复“可能看错了”，随后关闭 Issue #13 as completed。"
       }
     },
     {
@@ -3419,11 +3419,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/aivanovski/kpassnotes/issues",
+        "github_url": "https://github.com/aivanovski/keepassvault/issues/321",
         "issue_submitted": true,
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": ""
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者已关闭 Issue #321，并通过 #323 完成修复。"
       }
     },
     {
@@ -4952,11 +4952,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/lneugebauer/nextcloud-cookbook/issues",
+        "github_url": "https://github.com/lneugebauer/nextcloud-cookbook/issues/195",
         "issue_submitted": true,
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": ""
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者已关闭 Issue #195，并通过提交 ea4d146 完成修复。"
       }
     },
     {
@@ -5248,10 +5248,10 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/Drumm3r/office-break/issues",
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": "",
+        "github_url": "https://github.com/Drumm3r/office-break/issues/30",
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者已关闭 Issue #30，并通过 #39 完成修复。",
         "issue_submitted": true
       }
     },
@@ -5761,11 +5761,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/domob1812/shopt2/issues",
+        "github_url": "https://github.com/domob1812/shopt2/issues/22",
         "issue_submitted": true,
         "author_confirmed": false,
         "resolved": false,
-        "public_note": ""
+        "public_note": "作者反馈这是按设计工作：主页购物清单与商店编辑页的列表本来就不要求完全一致。"
       }
     },
     {
@@ -7091,11 +7091,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/EventFahrplan/EventFahrplan/issues",
+        "github_url": "https://github.com/EventFahrplan/EventFahrplan/issues/902",
         "issue_submitted": true,
         "author_confirmed": false,
         "resolved": false,
-        "public_note": ""
+        "public_note": "作者反馈：CLT 2026 是过去场次，为过去场次设置闹钟会几乎立即触发，闹钟项可能只会短暂出现在列表中；该现象更像前置时间条件导致的预期行为。"
       }
     },
     {
@@ -7731,11 +7731,11 @@ window.FIM_PUBLIC_BUGS = {
         "reviewer_note": ""
       },
       "public": {
-        "github_url": "https://github.com/rh-id/a-medic-log/issues",
+        "github_url": "https://github.com/rh-id/a-medic-log/issues/7",
         "issue_submitted": true,
-        "author_confirmed": false,
-        "resolved": false,
-        "public_note": ""
+        "author_confirmed": true,
+        "resolved": true,
+        "public_note": "作者回复该问题应会在下一版修复，并表示许多问题已经修复。"
       }
     },
     {
@@ -9941,6 +9941,4142 @@ window.FIM_PUBLIC_BUGS = {
         "author_confirmed": false,
         "resolved": false,
         "public_note": ""
+      }
+    },
+    {
+      "id": "usefulness_AdobeAcrobatReader__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "AdobeAcrobatReader",
+        "app_name": "AdobeAcrobatReader",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "Voice query initiated login prompt instead of processing query.",
+        "expected": "Captures voice input for AI query.",
+        "actual": "Voice query initiated login prompt instead of processing query.\n\n触发操作: Voice query button",
+        "scenario": "Voice query button",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_AdobeAcrobatReader__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Voice query button",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_AdobeAcrobatReader__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/AdobeAcrobatReader",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/AdobeAcrobatReader/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Allegiant__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Allegiant",
+        "app_name": "Allegiant",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "Tapping 'Book Flight' immediately shows an error dialog ('Error: Something went wrong') and prevents booking.",
+        "expected": "The app should navigate to the flight booking flow (enter route/dates/passengers) without showing an error dialog.",
+        "actual": "Tapping 'Book Flight' immediately shows an error dialog ('Error: Something went wrong') and prevents booking.\n\n触发操作: Open the Allegiant app on the Home screen, then tap the 'Book Flight' button.",
+        "scenario": "Open the Allegiant app on the Home screen, then tap the 'Book Flight' button.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Allegiant__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "Open the Allegiant app on the Home screen, then tap the 'Book Flight' button.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Allegiant__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Allegiant",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Allegiant/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_AnJuKe__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "AnJuKe",
+        "app_name": "AnJuKe",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "After deleting a chat conversation, the first AI chat entry disappears unexpectedly. The chat list refreshes incorrectly, causing the top AI conversation to be removed even though it was not deleted.",
+        "expected": "Only the selected chat should be removed. Other existing chats, including the first AI chat, should remain visible and unchanged in the list.",
+        "actual": "After deleting a chat conversation, the first AI chat entry disappears unexpectedly. The chat list refreshes incorrectly, causing the top AI conversation to be removed even though it was not deleted.\n\n触发操作: Open the Messages page → long-press a chat item → select Delete → confirm deletion → return to the chat list.",
+        "scenario": "Open the Messages page → long-press a chat item → select Delete → confirm deletion → return to the chat list.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_AnJuKe__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_AnJuKe__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Open the Messages page → long-press a chat item → select Delete → confirm deletion → return to the chat list.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_AnJuKe__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/AnJuKe",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/AnJuKe/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Atlantic__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Atlantic",
+        "app_name": "Atlantic",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 2,
+        "description": "The app crashes with a 'The Atlantic has stopped' error after trying to play Bracket City.",
+        "expected": "Navigates to Bracket City game’s play interface",
+        "actual": "The app crashes with a 'The Atlantic has stopped' error after trying to play Bracket City.\n\n触发操作: Play button for Bracket City game",
+        "scenario": "Play button for Bracket City game",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Atlantic__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Play button for Bracket City game",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Atlantic__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Atlantic",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Atlantic/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_BloodPressure__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "BloodPressure",
+        "app_name": "BloodPressure",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "After adding a new alarm, the alarm label/category is saved incorrectly and does not match the option selected in the Set Alarm dialog (e.g., selecting \"BMI\" but the created alarm appears under \"Blood Sugar\").",
+        "expected": "The newly added alarm should be created under the same label/category selected in the dialog (e.g., \"BMI\"), and the displayed label should remain consistent after adding.",
+        "actual": "After adding a new alarm, the alarm label/category is saved incorrectly and does not match the option selected in the Set Alarm dialog (e.g., selecting \"BMI\" but the created alarm appears under \"Blood Sugar\").\n\n触发操作: In Remind Me → Record, tap ADD, select the \"BMI\" label in the Set Alarm dialog, set a time, then tap Add.",
+        "scenario": "In Remind Me → Record, tap ADD, select the \"BMI\" label in the Set Alarm dialog, set a time, then tap Add.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_BloodPressure__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_BloodPressure__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "In Remind Me → Record, tap ADD, select the \"BMI\" label in the Set Alarm dialog, set a time, then tap Add.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_BloodPressure__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/BloodPressure",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/BloodPressure/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Buyr__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Buyr",
+        "app_name": "Buyr",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 3,
+        "description": "After restarting the app and opening it again, the app crashes immediately and shows the system dialog 'Buy'r keeps stopping'.",
+        "expected": "The app should launch normally after being restarted and enter the home/login screen without crashing.",
+        "actual": "After restarting the app and opening it again, the app crashes immediately and shows the system dialog 'Buy'r keeps stopping'.\n\n触发操作: Restart/relauch the app (close it, then tap the app icon to open it again).",
+        "scenario": "Restart/relauch the app (close it, then tap the app icon to open it again).",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Buyr__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Buyr__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Restart/relauch the app (close it, then tap the app icon to open it again).",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Buyr__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Buyr",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Buyr/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_DealDash__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "DealDash",
+        "app_name": "DealDash",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 2,
+        "description": "App crashes with 'DealDash has stopped' message after back navigation.",
+        "expected": "Returns to the previous auctions listing page.",
+        "actual": "App crashes with 'DealDash has stopped' message after back navigation.\n\n触发操作: Back navigation button",
+        "scenario": "Back navigation button",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_DealDash__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Back navigation button",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_DealDash__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DealDash",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DealDash/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_DealDash__BUG-002",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "DealDash",
+        "app_name": "DealDash",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 2,
+        "description": "App crashes when the back navigation button is pressed.",
+        "expected": "Navigates to previous Manage section page",
+        "actual": "App crashes when the back navigation button is pressed.\n\n触发操作: Back navigation button",
+        "scenario": "Back navigation button",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-002"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_DealDash__BUG-002/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Back navigation button",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_DealDash__BUG-002/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DealDash",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DealDash/output/bug2",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_DofuStream__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "DofuStream",
+        "app_name": "DofuStream",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 3,
+        "description": "When tapping the play button to start a video, the app crashes and shows the system dialog 'DofuStream has stopped'.",
+        "expected": "The app should start playing the video normally without crashing and remain responsive on the video/article page.",
+        "actual": "When tapping the play button to start a video, the app crashes and shows the system dialog 'DofuStream has stopped'.\n\n触发操作: Open DofuStream, open a news/article page with an embedded video, then tap the video play button to start playback.",
+        "scenario": "Open DofuStream, open a news/article page with an embedded video, then tap the video play button to start playback.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_DofuStream__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_DofuStream__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Open DofuStream, open a news/article page with an embedded video, then tap the video play button to start playback.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_DofuStream__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DofuStream",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/DofuStream/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_FOXLOCAL__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "FOXLOCAL",
+        "app_name": "FOXLOCAL",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 4,
+        "description": "After tapping \"Sign In or Sign Up\" on the My Profile page, the system shows an \"Open with Chrome\" chooser. When the user goes back (returns to the app), the Personal/Profile page gets stuck on a loading spinner and never recovers, so the profile content cannot be displayed.",
+        "expected": "Returning from the sign-in flow (or canceling it) should bring the user back to a usable profile page: either show the guest profile normally, or show a clear sign-in state/error message with a retry option, without getting stuck in infinite loading.",
+        "actual": "After tapping \"Sign In or Sign Up\" on the My Profile page, the system shows an \"Open with Chrome\" chooser. When the user goes back (returns to the app), the Personal/Profile page gets stuck on a loading spinner and never recovers, so the profile content cannot be displayed.\n\n触发操作: Open FOX LOCAL → go to You/My Profile → tap \"Sign In or Sign Up\" → when the Android \"Open with Chrome\" chooser appears, press the system Back button (or otherwise return to the app) → observe the My Profile/You page.",
+        "scenario": "Open FOX LOCAL → go to You/My Profile → tap \"Sign In or Sign Up\" → when the Android \"Open with Chrome\" chooser appears, press the system Back button (or otherwise return to the app) → observe the My Profile/You page.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_FOXLOCAL__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_FOXLOCAL__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_FOXLOCAL__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "Open FOX LOCAL → go to You/My Profile → tap \"Sign In or Sign Up\" → when the Android \"Open with Chrome\" chooser appears, press the system Back button (or otherwise return to the app) → observe the My Profile/You page.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_FOXLOCAL__BUG-001/screenshots/step_004.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/FOXLOCAL",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/FOXLOCAL/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Greyhound__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Greyhound",
+        "app_name": "Greyhound",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "When the departure and destination are set to the same city, tapping Search shows an error page ('Sorry, there was an error') instead of handling the case properly.",
+        "expected": "The app should prevent the search and show a clear validation message (e.g., 'From and To cannot be the same') or handle the search without displaying a generic error page.",
+        "actual": "When the departure and destination are set to the same city, tapping Search shows an error page ('Sorry, there was an error') instead of handling the case properly.\n\n触发操作: Open the booking/search screen, set both From and To to the same location (e.g., San Jose, CA), then tap 'Search'.",
+        "scenario": "Open the booking/search screen, set both From and To to the same location (e.g., San Jose, CA), then tap 'Search'.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Greyhound__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Greyhound__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Open the booking/search screen, set both From and To to the same location (e.g., San Jose, CA), then tap 'Search'.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Greyhound__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Greyhound",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Greyhound/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Instagram__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Instagram",
+        "app_name": "Instagram",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 2,
+        "description": "After interacting with the search input field, the app process exited, and the system home screen (a blank screen) is shown.",
+        "expected": "Displays search results for the entered term",
+        "actual": "After interacting with the search input field, the app process exited, and the system home screen (a blank screen) is shown.\n\n触发操作: Search input field",
+        "scenario": "Search input field",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Instagram__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Search input field",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Instagram__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Instagram",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Instagram/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_InteractiveImmersiveWarmUp__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "InteractiveImmersiveWarmUp",
+        "app_name": "InteractiveImmersiveWarmUp",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "Video fails to play after tapping the Replay button.",
+        "expected": "Restart the gesture guide animation",
+        "actual": "Video fails to play after tapping the Replay button.\n\n触发操作: Replay button",
+        "scenario": "Replay button",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Replay button",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_InteractiveImmersiveWarmUp__BUG-002",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "InteractiveImmersiveWarmUp",
+        "app_name": "InteractiveImmersiveWarmUp",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "After selecting the game card, only hearts are shown on a black screen, no game content.",
+        "expected": "Open the game to start interacting with the character",
+        "actual": "After selecting the game card, only hearts are shown on a black screen, no game content.\n\n触发操作: Game card with character behind door",
+        "scenario": "Game card with character behind door",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-002"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-002/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Game card with character behind door",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-002/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp/output/bug2",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_InteractiveImmersiveWarmUp__BUG-003",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "InteractiveImmersiveWarmUp",
+        "app_name": "InteractiveImmersiveWarmUp",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 7,
+        "description": "When the same video is liked from different tabs, unliking it in the Favourite tab only updates one instance; the duplicate entry remains liked/visible, causing an inconsistent favourite state across duplicates.",
+        "expected": "Unliking a video should apply globally to that video ID: all duplicate entries across tabs (and in Favourite) should be removed/updated together so the video is no longer marked as liked anywhere.",
+        "actual": "When the same video is liked from different tabs, unliking it in the Favourite tab only updates one instance; the duplicate entry remains liked/visible, causing an inconsistent favourite state across duplicates.\n\n触发操作: Like the same video in two different tabs (e.g., Trending and Touch). Go to Favourite tab, then tap the heart icon to unlike the video.",
+        "scenario": "Like the same video in two different tabs (e.g., Trending and Touch). Go to Favourite tab, then tap the heart icon to unlike the video.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-003"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "复现过程证据 5。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_005.png"
+          }
+        },
+        {
+          "step_index": 6,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "6.png"
+            }
+          },
+          "thought": "复现过程证据 6。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_6",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_006.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_006.png"
+          }
+        },
+        {
+          "step_index": 7,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "7.png"
+            }
+          },
+          "thought": "Like the same video in two different tabs (e.g., Trending and Touch). Go to Favourite tab, then tap the heart icon to unlike the video.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_7",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_007.png",
+            "screenshot_url": "assets/usefulness_InteractiveImmersiveWarmUp__BUG-003/screenshots/step_007.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/InteractiveImmersiveWarmUp/output/bug3",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Kroger__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Kroger",
+        "app_name": "Kroger",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "ui_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "Graphic overlay issue obscures UI after adding item to cart.",
+        "expected": "Fresh Bunch of Bananas is added to the shopping cart.",
+        "actual": "Graphic overlay issue obscures UI after adding item to cart.\n\n触发操作: Add to Cart button (bananas item)",
+        "scenario": "Add to Cart button (bananas item)",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Kroger__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Add to Cart button (bananas item)",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Kroger__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Kroger",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Kroger/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_KuGouMusic__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "KuGouMusic",
+        "app_name": "KuGouMusic",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 7,
+        "description": "After adding a song to a playlist, the \"Music Footprints → Playlist Footprints\" page shows a playlist entry that does not match the actual playlist status (e.g., the displayed song count and/or the \"playing to\" track is incorrect compared with the real playlist content after the add).",
+        "expected": "The playlist shown in \"Playlist Footprints\" should reflect the real playlist information after the add (correct playlist content/track count and correct current \"playing to\" track).",
+        "actual": "After adding a song to a playlist, the \"Music Footprints → Playlist Footprints\" page shows a playlist entry that does not match the actual playlist status (e.g., the displayed song count and/or the \"playing to\" track is incorrect compared with the real playlist content after the add).\n\n触发操作: Play any song → open the more/options panel → tap \"Add to playlist\" → select an existing playlist (e.g., 我的歌单1) and confirm \"Added successfully\" → open \"Music Footprints\" → switch to \"Playlist Footprints\" and check the displayed playlist entry.",
+        "scenario": "Play any song → open the more/options panel → tap \"Add to playlist\" → select an existing playlist (e.g., 我的歌单1) and confirm \"Added successfully\" → open \"Music Footprints\" → switch to \"Playlist Footprints\" and check the displayed playlist entry.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.jpg"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_001.jpg"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.jpg"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_002.jpg"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.jpg"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_003.jpg"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.jpg"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_004.jpg"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.jpg"
+            }
+          },
+          "thought": "复现过程证据 5。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_005.jpg"
+          }
+        },
+        {
+          "step_index": 6,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "6.jpg"
+            }
+          },
+          "thought": "复现过程证据 6。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_6",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_006.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_006.jpg"
+          }
+        },
+        {
+          "step_index": 7,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "7.jpg"
+            }
+          },
+          "thought": "Play any song → open the more/options panel → tap \"Add to playlist\" → select an existing playlist (e.g., 我的歌单1) and confirm \"Added successfully\" → open \"Music Footprints\" → switch to \"Playlist Footprints\" and check the displayed playlist entry.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_7",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_007.jpg",
+            "screenshot_url": "assets/usefulness_KuGouMusic__BUG-001/screenshots/step_007.jpg"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/KuGouMusic",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/KuGouMusic/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_LiveEarthMap__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "LiveEarthMap",
+        "app_name": "LiveEarthMap",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 5,
+        "description": "After capturing and exporting/saving a photo, the \"Your Images\" list remains empty and shows \"No Images Found\", indicating the newly added photo is not persisted or not displayed.",
+        "expected": "The exported/saved photo should appear in the \"Your Images\" list (and be viewable), instead of showing an empty state.",
+        "actual": "After capturing and exporting/saving a photo, the \"Your Images\" list remains empty and shows \"No Images Found\", indicating the newly added photo is not persisted or not displayed.\n\n触发操作: From the home screen, tap \"Capture Image\" to take a photo, then tap \"Export\" (save). After that, open \"Your Images\" / \"See Images\" to view the saved photos.",
+        "scenario": "From the home screen, tap \"Capture Image\" to take a photo, then tap \"Export\" (save). After that, open \"Your Images\" / \"See Images\" to view the saved photos.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_LiveEarthMap__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_LiveEarthMap__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_LiveEarthMap__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_LiveEarthMap__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "From the home screen, tap \"Capture Image\" to take a photo, then tap \"Export\" (save). After that, open \"Your Images\" / \"See Images\" to view the saved photos.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_LiveEarthMap__BUG-001/screenshots/step_005.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/LiveEarthMap",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/LiveEarthMap/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Notepad__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Notepad",
+        "app_name": "Notepad",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 6,
+        "description": "After setting the note text size to 0 and enabling line number display, opening a note causes the app to crash and show the system dialog 'Notepad Free has stopped'.",
+        "expected": "The note should open normally even if the font size is set to 0, or the app should prevent invalid font sizes and handle the configuration safely without crashing.",
+        "actual": "After setting the note text size to 0 and enabling line number display, opening a note causes the app to crash and show the system dialog 'Notepad Free has stopped'.\n\n触发操作: Open Settings → Note editing → set 'Default note text font size' to 0 → enable 'Line numbers' → return to the note list → open any existing note.",
+        "scenario": "Open Settings → Note editing → set 'Default note text font size' to 0 → enable 'Line numbers' → return to the note list → open any existing note.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "复现过程证据 5。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_005.png"
+          }
+        },
+        {
+          "step_index": 6,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "6.png"
+            }
+          },
+          "thought": "Open Settings → Note editing → set 'Default note text font size' to 0 → enable 'Line numbers' → return to the note list → open any existing note.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_6",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_006.png",
+            "screenshot_url": "assets/usefulness_Notepad__BUG-001/screenshots/step_006.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Notepad",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Notepad/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_PDFFileReader__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "PDFFileReader",
+        "app_name": "PDFFileReader",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 5,
+        "description": "After deleting an imported PDF file, the file still appears in the document list. Even though a toast indicates the file was moved to the Recycle Bin, the document remains visible and accessible in the list.",
+        "expected": "After deletion, the file should be removed from the document list immediately and only appear in the Recycle Bin, not remain visible in the main document list.",
+        "actual": "After deleting an imported PDF file, the file still appears in the document list. Even though a toast indicates the file was moved to the Recycle Bin, the document remains visible and accessible in the list.\n\n触发操作: Open the app → go to Document → long-press or tap the options menu on an imported PDF → select Delete → confirm deletion → return to the document list.",
+        "scenario": "Open the app → go to Document → long-press or tap the options menu on an imported PDF → select Delete → confirm deletion → return to the document list.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_PDFFileReader__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_PDFFileReader__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_PDFFileReader__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_PDFFileReader__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "Open the app → go to Document → long-press or tap the options menu on an imported PDF → select Delete → confirm deletion → return to the document list.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_PDFFileReader__BUG-001/screenshots/step_005.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PDFFileReader",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PDFFileReader/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_PerfectPiano__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "PerfectPiano",
+        "app_name": "PerfectPiano",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "ui_error",
+        "severity": "medium",
+        "step_index": 5,
+        "description": "After enabling vertical arrangement (Music Sheet Wrap Line) in Settings, the music sheet does not fill the entire screen when returning to the playing interface, leaving a large blank area.",
+        "expected": "After enabling vertical arrangement, the music sheet should be vertically arranged and fully occupy the available screen space without leaving blank areas.",
+        "actual": "After enabling vertical arrangement (Music Sheet Wrap Line) in Settings, the music sheet does not fill the entire screen when returning to the playing interface, leaving a large blank area.\n\n触发操作: Open Settings → enable vertical arrangement (Music Sheet Wrap Line), then return to the music sheet/play interface.",
+        "scenario": "Open Settings → enable vertical arrangement (Music Sheet Wrap Line), then return to the music sheet/play interface.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_PerfectPiano__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_PerfectPiano__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_PerfectPiano__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_PerfectPiano__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "Open Settings → enable vertical arrangement (Music Sheet Wrap Line), then return to the music sheet/play interface.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_PerfectPiano__BUG-001/screenshots/step_005.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PerfectPiano",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PerfectPiano/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_PiPiXia__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "PiPiXia",
+        "app_name": "PiPiXia",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 5,
+        "description": "Posts viewed in the \"Hot Comments / Trending\" (神评热搜) section are not recorded in the user's history. After watching and entering posts from 神评热搜, these posts do not appear in the personal profile's history records.",
+        "expected": "Posts viewed from 神评热搜 should be correctly saved and displayed in the user's history records, consistent with other viewed posts.",
+        "actual": "Posts viewed in the \"Hot Comments / Trending\" (神评热搜) section are not recorded in the user's history. After watching and entering posts from 神评热搜, these posts do not appear in the personal profile's history records.\n\n触发操作: Open 神评热搜 → tap and view a post → return to Profile → open History / 历史记录.",
+        "scenario": "Open 神评热搜 → tap and view a post → return to Profile → open History / 历史记录.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.jpg"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.jpg",
+            "screenshot_url": "assets/usefulness_PiPiXia__BUG-001/screenshots/step_001.jpg"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.jpg"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.jpg",
+            "screenshot_url": "assets/usefulness_PiPiXia__BUG-001/screenshots/step_002.jpg"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.jpg"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.jpg",
+            "screenshot_url": "assets/usefulness_PiPiXia__BUG-001/screenshots/step_003.jpg"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.jpg"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.jpg",
+            "screenshot_url": "assets/usefulness_PiPiXia__BUG-001/screenshots/step_004.jpg"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.jpg"
+            }
+          },
+          "thought": "Open 神评热搜 → tap and view a post → return to Profile → open History / 历史记录.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.jpg",
+            "screenshot_url": "assets/usefulness_PiPiXia__BUG-001/screenshots/step_005.jpg"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PiPiXia",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/PiPiXia/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Plex__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Plex",
+        "app_name": "Plex",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "When the departure and destination are the same city (e.g., San Jose, CA → San Jose, CA), tapping 'Search' leads to an error page instead of showing a valid result or a clear validation message.",
+        "expected": "The app should prevent selecting the same origin and destination with a clear validation message (e.g., 'Origin and destination cannot be the same'), or handle it gracefully without entering an error state.",
+        "actual": "When the departure and destination are the same city (e.g., San Jose, CA → San Jose, CA), tapping 'Search' leads to an error page instead of showing a valid result or a clear validation message.\n\n触发操作: On the booking screen, set From = 'San Jose, CA' and To = 'San Jose, CA', keep the dates as default, then tap 'Search'.",
+        "scenario": "On the booking screen, set From = 'San Jose, CA' and To = 'San Jose, CA', keep the dates as default, then tap 'Search'.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Plex__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Plex__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "On the booking screen, set From = 'San Jose, CA' and To = 'San Jose, CA', keep the dates as default, then tap 'Search'.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Plex__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Plex",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Plex/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_QRCode__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "QRCode",
+        "app_name": "QRCode",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 6,
+        "description": "After scanning a QR code, marking it as a favorite, and then deleting it, the item still remains visible in the Favorites list instead of being removed.",
+        "expected": "After deleting the scanned item, it should also be removed from the Favorites list and no longer appear there.",
+        "actual": "After scanning a QR code, marking it as a favorite, and then deleting it, the item still remains visible in the Favorites list instead of being removed.\n\n触发操作: Scan a QR code → mark it as Favorite → delete the scanned item → navigate to the Favorites page.",
+        "scenario": "Scan a QR code → mark it as Favorite → delete the scanned item → navigate to the Favorites page.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "复现过程证据 5。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_005.png"
+          }
+        },
+        {
+          "step_index": 6,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "6.png"
+            }
+          },
+          "thought": "Scan a QR code → mark it as Favorite → delete the scanned item → navigate to the Favorites page.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_6",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_006.png",
+            "screenshot_url": "assets/usefulness_QRCode__BUG-001/screenshots/step_006.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/QRCode",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/QRCode/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_RemoveFile__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "RemoveFile",
+        "app_name": "RemoveFile",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "crash",
+        "severity": "high",
+        "step_index": 6,
+        "description": "After completing a photo scan and then switching to scan videos, the app crashes and displays a system dialog indicating the app has stopped.",
+        "expected": "After finishing photo scanning, switching to video scanning should work normally without causing the app to crash.",
+        "actual": "After completing a photo scan and then switching to scan videos, the app crashes and displays a system dialog indicating the app has stopped.\n\n触发操作: Tap 'Scan' in Recover Photos, wait for scanning to complete, then navigate to Recover Videos and start scanning.",
+        "scenario": "Tap 'Scan' in Recover Photos, wait for scanning to complete, then navigate to Recover Videos and start scanning.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "复现过程证据 3。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_003.png"
+          }
+        },
+        {
+          "step_index": 4,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "4.png"
+            }
+          },
+          "thought": "复现过程证据 4。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_4",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_004.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_004.png"
+          }
+        },
+        {
+          "step_index": 5,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "5.png"
+            }
+          },
+          "thought": "复现过程证据 5。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_5",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_005.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_005.png"
+          }
+        },
+        {
+          "step_index": 6,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "6.png"
+            }
+          },
+          "thought": "Tap 'Scan' in Recover Photos, wait for scanning to complete, then navigate to Recover Videos and start scanning.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_6",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_006.png",
+            "screenshot_url": "assets/usefulness_RemoveFile__BUG-001/screenshots/step_006.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/RemoveFile",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/RemoveFile/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Substack__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Substack",
+        "app_name": "Substack",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "When changing an option in Chat settings (e.g., permissions or notification settings), the app fails to save the change and shows an error dialog saying “There was an error saving chat settings”.",
+        "expected": "The selected chat setting should be saved successfully, the UI should reflect the new value, and no error dialog should appear.",
+        "actual": "When changing an option in Chat settings (e.g., permissions or notification settings), the app fails to save the change and shows an error dialog saying “There was an error saving chat settings”.\n\n触发操作: Open Chat → tap the menu on the chat list page → select “Chat settings” → change any setting option (e.g., switch ‘Who can start threads?’ or toggle a setting).",
+        "scenario": "Open Chat → tap the menu on the chat list page → select “Chat settings” → change any setting option (e.g., switch ‘Who can start threads?’ or toggle a setting).",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-001/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Open Chat → tap the menu on the chat list page → select “Chat settings” → change any setting option (e.g., switch ‘Who can start threads?’ or toggle a setting).",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-001/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Substack",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Substack/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Substack__BUG-002",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Substack",
+        "app_name": "Substack",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "After changing the \"Allow requests from\" option in Privacy settings, the selection is not reflected on the previous Privacy page. The outer display still shows the old value, even though a different option was selected.",
+        "expected": "The Privacy page should immediately update and display the newly selected \"Allow requests from\" value, remaining consistent with the user's latest selection.",
+        "actual": "After changing the \"Allow requests from\" option in Privacy settings, the selection is not reflected on the previous Privacy page. The outer display still shows the old value, even though a different option was selected.\n\n触发操作: Go to Privacy → tap \"Allow requests from\" → select a different option (e.g., Subscribers or No one) → tap back to return to the Privacy page.",
+        "scenario": "Go to Privacy → tap \"Allow requests from\" → select a different option (e.g., Subscribers or No one) → tap back to return to the Privacy page.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-002"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-002/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-002/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Go to Privacy → tap \"Allow requests from\" → select a different option (e.g., Subscribers or No one) → tap back to return to the Privacy page.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Substack__BUG-002/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Substack",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Substack/output/bug2",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Victory__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Victory",
+        "app_name": "Victory",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "ui_error",
+        "severity": "medium",
+        "step_index": 2,
+        "description": "After selecting 'Shorts', the screen is blank with no content displayed.",
+        "expected": "Navigates to Shorts page with short videos",
+        "actual": "After selecting 'Shorts', the screen is blank with no content displayed.\n\n触发操作: Shorts tab button",
+        "scenario": "Shorts tab button",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "before.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Victory__BUG-001/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "after.png"
+            }
+          },
+          "thought": "Shorts tab button",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Victory__BUG-001/screenshots/step_002.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Victory",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Victory/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_Victory__BUG-002",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "Victory",
+        "app_name": "Victory",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "ui_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "In the Shorts video screen, after opening the Comments panel and then closing it, the bottom Tab bar (Home/Shorts/Profile) becomes hidden/covered and does not return to its normal visible position.",
+        "expected": "After closing the Comments panel, the bottom Tab bar should be fully visible and clickable, and the Shorts player layout should return to its normal state without any UI elements being obscured.",
+        "actual": "In the Shorts video screen, after opening the Comments panel and then closing it, the bottom Tab bar (Home/Shorts/Profile) becomes hidden/covered and does not return to its normal visible position.\n\n触发操作: Open a Shorts video → tap the Comments icon to open the Comments panel → close the Comments panel (swipe down or tap close) → observe the bottom Tab bar area.",
+        "scenario": "Open a Shorts video → tap the Comments icon to open the Comments panel → close the Comments panel (swipe down or tap close) → observe the bottom Tab bar area.",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-002"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.png"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.png",
+            "screenshot_url": "assets/usefulness_Victory__BUG-002/screenshots/step_001.png"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.png"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.png",
+            "screenshot_url": "assets/usefulness_Victory__BUG-002/screenshots/step_002.png"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.png"
+            }
+          },
+          "thought": "Open a Shorts video → tap the Comments icon to open the Comments panel → close the Comments panel (swipe down or tap close) → observe the bottom Tab bar area.",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.png",
+            "screenshot_url": "assets/usefulness_Victory__BUG-002/screenshots/step_003.png"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Victory",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/Victory/output/bug2",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_WeChat__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "WeChat",
+        "app_name": "WeChat",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "In Contacts → Tags, the displayed count for \"Unlabeled friends\" is inconsistent with the actual number shown after entering the list (e.g., shows 11 on the tags page but shows 229 inside), indicating the tag count is incorrect or not updated.",
+        "expected": "The \"Unlabeled friends\" count shown on the tags page should match the actual number of contacts displayed after entering the unlabeled list.",
+        "actual": "In Contacts → Tags, the displayed count for \"Unlabeled friends\" is inconsistent with the actual number shown after entering the list (e.g., shows 11 on the tags page but shows 229 inside), indicating the tag count is incorrect or not updated.\n\n触发操作: WeChat → Contacts (通讯录) → Tags (标签) → tap \"Unlabeled friends\" (未设置标签的朋友).",
+        "scenario": "WeChat → Contacts (通讯录) → Tags (标签) → tap \"Unlabeled friends\" (未设置标签的朋友).",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.jpg"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.jpg",
+            "screenshot_url": "assets/usefulness_WeChat__BUG-001/screenshots/step_001.jpg"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.jpg"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.jpg",
+            "screenshot_url": "assets/usefulness_WeChat__BUG-001/screenshots/step_002.jpg"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.jpg"
+            }
+          },
+          "thought": "WeChat → Contacts (通讯录) → Tags (标签) → tap \"Unlabeled friends\" (未设置标签的朋友).",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.jpg",
+            "screenshot_url": "assets/usefulness_WeChat__BUG-001/screenshots/step_003.jpg"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/WeChat",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/WeChat/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
+      }
+    },
+    {
+      "id": "usefulness_ZuiYou__BUG-001",
+      "recorded_at": "2026-06-22T00:00:00+0800",
+      "app": {
+        "package_name": "ZuiYou",
+        "app_name": "ZuiYou",
+        "version_name": "",
+        "version_code": "",
+        "source_code_url": "",
+        "issue_tracker_url": "",
+        "summary": "Usefulness evaluation defect sample."
+      },
+      "bug": {
+        "type": "logic_error",
+        "severity": "medium",
+        "step_index": 3,
+        "description": "After liking a post on the recommendation feed, the \"Liked\" section in the personal profile shows an incorrect count that does not match the actual number of posts the user has liked.",
+        "expected": "The count and list in \"Liked\" should accurately reflect all posts that the user has liked, matching the actual like actions performed.",
+        "actual": "After liking a post on the recommendation feed, the \"Liked\" section in the personal profile shows an incorrect count that does not match the actual number of posts the user has liked.\n\n触发操作: Browse the recommendation feed → tap the like (thumb-up) button on a post → go to Profile → open \"Liked\" (我赞过的).",
+        "scenario": "Browse the recommendation feed → tap the like (thumb-up) button on a post → go to Profile → open \"Liked\" (我赞过的).",
+        "source": "usefulness_evaluation",
+        "scenario_type": "usefulness_evaluation",
+        "target_function_id": "",
+        "src_function_id": "",
+        "dst_function_id": "",
+        "bug_id": "BUG-001"
+      },
+      "trace": [
+        {
+          "step_index": 1,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "observe",
+            "parameters": {
+              "source": "1.jpg"
+            }
+          },
+          "thought": "缺陷触发前的页面状态。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_1",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_001.jpg",
+            "screenshot_url": "assets/usefulness_ZuiYou__BUG-001/screenshots/step_001.jpg"
+          }
+        },
+        {
+          "step_index": 2,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "2.jpg"
+            }
+          },
+          "thought": "复现过程证据 2。",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_2",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_002.jpg",
+            "screenshot_url": "assets/usefulness_ZuiYou__BUG-001/screenshots/step_002.jpg"
+          }
+        },
+        {
+          "step_index": 3,
+          "raw_step_index": null,
+          "trace_phase": "usefulness_evaluation",
+          "operation": {
+            "action_name": "verify",
+            "parameters": {
+              "source": "3.jpg"
+            }
+          },
+          "thought": "Browse the recommendation feed → tap the like (thumb-up) button on a post → go to Profile → open \"Liked\" (我赞过的).",
+          "is_interruption": false,
+          "action_failed": false,
+          "external_context": false,
+          "foreground_recovery": false,
+          "action_error": "",
+          "page": {
+            "id": "page_3",
+            "name": "",
+            "description": "",
+            "operations": [],
+            "activity": "",
+            "screenshot": "screenshots/step_003.jpg",
+            "screenshot_url": "assets/usefulness_ZuiYou__BUG-001/screenshots/step_003.jpg"
+          }
+        }
+      ],
+      "paths": {
+        "app_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/ZuiYou",
+        "bug_dir": "/Users/xiachangwei/Desktop/ISSTA2026/FuncDroid/Usefulness evaluation/ZuiYou/output/bug1",
+        "apk_dir": ""
+      },
+      "public": {
+        "github_url": "",
+        "issue_submitted": false,
+        "author_confirmed": false,
+        "resolved": false,
+        "public_note": "Usefulness evaluation 补充缺陷。"
       }
     }
   ]
